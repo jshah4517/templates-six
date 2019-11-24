@@ -1,13 +1,7 @@
 <?php
 
 # Logo
-$logoFilename = 'placeholder.png';
-if (file_exists(ROOTDIR . '/assets/img/logo.png')) {
-    $logoFilename = 'logo.png';
-} elseif (file_exists(ROOTDIR . '/assets/img/logo.jpg')) {
-    $logoFilename = 'logo.jpg';
-}
-$pdf->Image(ROOTDIR . '/assets/img/' . $logoFilename, 15, 25, 75);
+$pdf->Image('https://www.licensepal.com/includes/images/logo.png',20,25,75);
 
 # Invoice Status
 $pdf->SetXY(0, 0);
