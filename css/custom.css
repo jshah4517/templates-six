@@ -6,3 +6,88 @@
     defined here.
 
 ***************************************************** */
+
+#footer {
+    margin-top: 0 !important;
+}
+
+.container {
+    margin-left: auto !important;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+    margin: 1em;
+}
+
+.main-content {
+    margin-bottom: 20px;
+    min-height: auto;
+}
+
+.row {
+    font-size: inherit !important;
+    margin: auto !important;
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+}
+
+.navbar-main {
+    background-color: #34495e;
+}
+
+.navbar-main .navbar-nav>.active>a, .navbar-main .navbar-nav>.active>a:focus, .navbar-main .navbar-nav>.active>a:hover, .navbar-main .navbar-nav>.open>a, .navbar-main .navbar-nav>.open>a:focus, .navbar-main .navbar-nav>.open>a:hover, .navbar-main .navbar-nav>li>a:focus, .navbar-main .navbar-nav>li>a:hover {
+    background-color: #213447;
+}
+
+.navbar-main .navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-main li.account {
+    background: 0;
+}
+
+div.product-details div.product-icon {
+    margin-bottom: 20px;
+}
+
+.client-home-panels .panel>.panel-body p {
+    margin: 0;
+}
+
+.message hr {
+    border-bottom: 1px solid #eee;
+    margin: 20px 0;
+}
+
+#products .productbox {
+    padding: 20px;
+    text-align: left;
+    width: 48%;
+}
+
+#products .productbox img {
+    float: left;
+    margin: 0;
+}
+
+#products .description {
+    padding: 2px 0 0 70px;
+}
+
+.border {
+    background: #34495e;
+    height: 5px;
+    width: 850px;
+    margin: auto;
+}

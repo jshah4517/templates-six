@@ -17,6 +17,202 @@
             {$tplOverviewTabOutput}
         {else}
 
+            <div align="center" style="border: 3px solid #efefef; margin-bottom: 40px; padding: 10px;">
+                {if $groupname eq 'ArcticDesk'}<table border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td rowspan="3"><img src="/includes/images/products_arcticdesk.png" alt="ArcticDesk" width="170" height="79" /></td>
+                        <td rowspan="3" width="15"></td>
+                        <td valign="bottom" height="25">Company Website: <a href="http://www.arcticdesk.com">http://www.arcticdesk.com</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" height="25">Client Area: <a href="https://www.arcticdesk.com/manage/clientarea.php">https://www.arcticdesk.com/manage/clientarea.php</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="top" height="25">Submit a Ticket: <a href="https://www.arcticdesk.com/support/index.php?module=tickets&sec=submit.step1">https://www.arcticdesk.com/support/index.php?module=tickets&sec=submit.step1</a></td>
+                    </tr>
+                </table>
+                {elseif $groupname eq 'Blesta'}<table border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td rowspan="2"><img src="/includes/images/products_blesta.png" alt="Blesta" width="170" height="79" /></td>
+                        <td rowspan="2" width="15"></td>
+                        <td valign="bottom" height="42">Company Website: <a href="http://blesta.com/">http://blesta.com/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="top">Support Address: <a href="mailto:support@blesta.com">support@blesta.com</a></td>
+                    </tr>
+                </table>
+                {elseif $groupname eq 'ClientExec'}<table border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td rowspan="2"><img src="/includes/images/products_clientexec.png" alt="ClientExec" width="170" height="79" /></td>
+                        <td rowspan="2" width="15"></td>
+                        <td valign="bottom" height="42">Company Website: <a href="http://clientexec.com">http://clientexec.com</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="top">Submit a Ticket: <a href="https://www.clientexec.com/members/index.php?fuse=support&controller=ticket&view=submitticket">https://www.clientexec.com/members/</a></td>
+                    </tr>
+                </table>
+                {elseif $groupname eq 'CloudLinux'}<table border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td rowspan="3"><img src="/includes/images/products_cloudlinux.png" alt="CloudLinux" width="170" height="79" /></td>
+                        <td rowspan="3" width="15"></td>
+                        <td valign="bottom" height="25">Company Website: <a href="http://cloudlinux.com/">http://cloudlinux.com/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" height="25">Documentation: <a href="http://cloudlinux.com/docs/">http://cloudlinux.com/docs/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="top" height="25">Support: <a href="http://www.cloudlinux.com/support/">http://cloudlinux.com/support/</a></td>
+                    </tr>
+                </table>
+                {elseif $groupname eq 'cPanel'}<table border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td rowspan="3"><img src="/includes/images/products_cpanel.png" alt="cPanel" width="170" height="79" /></td>
+                        <td valign="bottom" height="25">Company Website: <a href="http://cpanel.net/">http://cpanel.net/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" height="25">Documentation: <a href="http://docs.cpanel.net/twiki/bin/view/AllDocumentation/">http://docs.cpanel.net/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="top" height="25">Open a Ticket: <a href="https://licensepal.com/manage/submitticket.php">https://licensepal.com/manage/submitticket.php</a></td>
+                    </tr>
+                </table>
+                {elseif $groupname eq 'Imunify360'}<table border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td rowspan="3"><img src="/includes/images/products_imunify360.png" alt="Imunify360" width="170" height="79" /></td>
+                        <td rowspan="3" width="15"></td>
+                        <td valign="bottom" height="25">Company Website: <a href="https://www.imunify360.com/">https://www.imunify360.com/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" height="25">Documentation: <a href="https://docs.imunify360.com/">https://docs.imunify360.com/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="top" height="25">Support: <a href="http://www.cloudlinux.com/support/">http://cloudlinux.com/support/</a></td>
+                    </tr>
+                </table>
+                {elseif $groupname eq 'Installatron'}<table border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td align="center"><img src="/includes/images/products_installatron.png" alt="Installatron" width="170" height="79" /></td>
+                </table>
+                {elseif $groupname eq 'InterWorx'}<table border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td rowspan="3"><img src="/includes/images/products_interworx.png" alt="InterWorx" width="170" height="79" /></td>
+                        <td valign="bottom" height="25">Company Website: <a href="http://www.interworx.com/">http://www.interworx.com/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" height="25">Documentation: <a href="http://docs.interworx.com/">http://docs.interworx.com/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="top" height="25">Open a Ticket: <a href="https://licensepal.com/manage/submitticket.php">https://licensepal.com/manage/submitticket.php</a></td>
+                    </tr>
+                </table>
+                {elseif $groupname eq 'KernelCare'}<table border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td rowspan="3"><img src="/includes/images/products_kernelcare.png" alt="KernelCare" width="170" height="79" /></td>
+                        <td rowspan="3" width="15"></td>
+                        <td valign="bottom" height="25">Company Website: <a href="http://kernelcare.com/">http://kernelcare.com/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" height="25">Documentation: <a href="http://docs.kernelcare.com/">http://docs.kernelcare.com/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="top" height="25">Support: <a href="https://helpdesk.cloudlinux.com/">https://helpdesk.cloudlinux.com/</a></td>
+                    </tr>
+                </table>
+                {elseif $groupname eq 'LiteSpeed' or $groupname eq 'LiteSpeed (Old)'}<table border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td align="center"><img src="/includes/images/products_litespeed.png" alt="LiteSpeed" width="170" height="79" /></td>
+                </table>
+                {elseif $groupname eq 'RVSiteBuilder Pro'}<table border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td rowspan="3"><img src="/includes/images/products_rvsitebuilder.png" alt="RVSiteBuilder Pro" /></td>
+                        <td rowspan="3" width="15"></td>
+                        <td valign="bottom" height="25">Company Website: <a href="http://rvsitebuilder.com/">http://rvsitebuilder.com/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" height="25">Knowledgebase: <a href="http://support.rvsitebuilder.com/">http://support.rvsitebuilder.com/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="top" height="25">Submit Ticket: <a href="https://support.rvsitebuilder.com/index.php?x=&amp;mod_id=4">https://support.rvsitebuilder.com/index.php?x=&amp;mod_id=4</a></td>
+                    </tr>
+                </table>
+                {elseif $groupname eq 'RVSkin'}<table border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td rowspan="3"><img src="/includes/images/products_rvskin.png" alt="RVSkin" width="170" height="79" /></td>
+                        <td rowspan="3" width="15"></td>
+                        <td valign="bottom" height="25">Company Website: <a href="http://rvskin.com/">http://rvskin.com/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" height="25">Knowledgebase: <a href="http://support.rvskin.com/">http://support.rvskin.com/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="top" height="25">Submit Ticket: <a href="https://support.rvskin.com/index.php?x=&mod_id=4&t=1">https://support.rvskin.com/index.php?x=&amp;mod_id=4&&amp;=1</a></td>
+                    </tr>
+                </table>
+                {elseif $groupname eq 'SitePad'}<table border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td align="center"><img src="/includes/images/products_sitepad.png" alt="SitePad" width="170" height="79" /></td>
+                </table>
+                {elseif $groupname eq 'Softaculous'}<table border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td align="center"><img src="/includes/images/products_softaculous.png" alt="Softaculous" width="170" height="79" /></td>
+                </table>
+                {elseif $groupname eq 'SolusVM'}<table border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td rowspan="3"><img src="/includes/images/products_solusvm.png" alt="SolusVM" width="170" height="79" /></td>
+                        <td rowspan="3" width="15"></td>
+                        <td valign="bottom" height="25">Company Website: <a href="http://solusvm.com/">http://solusvm.com/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" height="25">Documentation: <a href="http://wiki.solusvm.com/index.php/Category:Documentation">http://wiki.solusvm.com/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="top" height="25">Support: <a href="mailto:general-support@soluslabs.com">general-support@soluslabs.com</a></td>
+                    </tr>
+                </table>
+                {elseif $groupname eq 'Virtualizor'}<table border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td align="center"><img src="/includes/images/products_virtualizor.png" alt="Virtualizor" width="170" height="79" /></td>
+                </table>
+                {elseif $groupname eq 'WHMSonic'}<table border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td rowspan="2"><img src="/includes/images/products_whmsonic.png" alt="WHMSonic" width="170" height="79" /></td>
+                        <td rowspan="2" width="15"></td>
+                        <td valign="bottom" height="25">Company Website: <a href="http://whmsonic.com/">http://whmsonic.com/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="top" height="25">Support: <a href="http://www.whmsonic.com/support/">http://whmsonic.com/support/</a></td>
+                    </tr>
+                </table>
+                {elseif $groupname eq 'WHMXtra'}<table border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td rowspan="3"><img src="/includes/images/products_whmxtra.gif" alt="WHMXtra" width="170" height="79" /></td>
+                        <td rowspan="3" width="15"></td>
+                        <td valign="bottom" height="25">Company Website: <a href="http://whmxtra.com/">http://whmxtra.com/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" height="25">Documentation: <a href="http://whmxtra.com/docs/index.php?action=WebHelp">http://whmxtra.com/docs/</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="top" height="25">Support: <a href="http://whmxtra.com/members/customers/index.php?task=contact">http://whmxtra.com/members/</a></td>
+                    </tr>
+                </table>
+                {elseif $groupname eq 'WHMCS'}<table border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td rowspan="3"><img src="/includes/images/products_whmcs.gif" alt="WHMCS" width="170" height="79" /></td>
+                        <td rowspan="3" width="15"></td>
+                        <td valign="bottom" height="25">Company Website: <a href="http://whmcs.com">http://whmcs.com</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" height="25">Client Area: <a href="https://whmcs.com/members/clientarea.php">https://whmcs.com/members/clientarea.php</a></td>
+                    </tr>
+                    <tr>
+                        <td valign="top" height="25">Submit a Ticket: <a href="https://whmcs.com/members/submitticket.php">https://whmcs.com/members/submitticket.php</a></td>
+                    </tr>
+                </table>
+                {elseif $groupname eq 'Services' || $groupname eq 'Services - Integration' || $groupname eq 'Services - Installation' || $groupname eq 'Services - Upgrade'}<img src="/includes/images/products_services.gif" alt="Services" width="170" height="79" />
+                {/if}
+            </div>
+
             <div class="product-details clearfix">
 
                 <div class="row">

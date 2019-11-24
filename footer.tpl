@@ -10,13 +10,6 @@
     </div>
 </section>
 
-<section id="footer">
-    <div class="container">
-        <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
-        <p>Copyright &copy; {$date_year} {$companyname}. All Rights Reserved.</p>
-    </div>
-</section>
-
 <div class="modal system-modal fade" id="modalAjax" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content panel panel-primary">
@@ -46,6 +39,8 @@
 </div>
 
 {$footeroutput}
+
+{include_php file='../includes/footer.php'}
 
 </body>
 </html>
