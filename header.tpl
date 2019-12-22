@@ -15,9 +15,9 @@
 
     <script src="/includes/js/jquery.cookie.js"></script>
     <script src="/includes/js/jquery.cookiecuttr.js"></script>
-    <link href="/css/cookiecuttr.css" rel="stylesheet" type="text/css">
-    <link href="/css/style.css?v=1563749485" rel="stylesheet" type="text/css">
-    <link href="/css/mobile.css" rel="stylesheet" type="text/css">
+    <link href="/includes/css/cookiecuttr.css" rel="stylesheet" type="text/css">
+    <link href="/includes/css/style.css?v=1563749485" rel="stylesheet" type="text/css">
+    <link href="/includes/css/mobile.css" rel="stylesheet" type="text/css">
 
     {$headoutput}
 

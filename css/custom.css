@@ -58,7 +58,11 @@ h4 {
 }
 
 div.product-details div.product-icon {
-    margin-bottom: 20px;
+    font-size: initial;
+}
+
+div.product-details div.product-icon h3 {
+    margin-top: 2rem;
 }
 
 .client-home-panels .panel>.panel-body p {
@@ -73,7 +77,7 @@ div.product-details div.product-icon {
 #products .productbox {
     padding: 20px;
     text-align: left;
-    width: 48%;
+    width: 47.75%;
 }
 
 #products .productbox img {
@@ -91,3 +95,4 @@ div.product-details div.product-icon {
     width: 850px;
     margin: auto;
 }
+

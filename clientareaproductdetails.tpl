@@ -17,10 +17,10 @@
             {$tplOverviewTabOutput}
         {else}
 
-            <div align="center" style="border: 3px solid #efefef; margin-bottom: 40px; padding: 10px;">
-                {if $groupname eq 'ArcticDesk'}<table border="0" cellspacing="0" cellpadding="5">
+            <div align="center" style="border: 1px solid #ddd; border-radius: 4px; margin-bottom: 40px; padding: 12px;">
+                {if $groupname eq 'ArcticDesk'}<table>
                     <tr>
-                        <td rowspan="3"><img src="/includes/images/products_arcticdesk.png" alt="ArcticDesk" width="170" height="79" /></td>
+                        <td rowspan="3" style="padding-right: 16px;"><img src="/includes/images/products_arcticdesk.png" alt="ArcticDesk" width="170" height="79" /></td>
                         <td rowspan="3" width="15"></td>
                         <td valign="bottom" height="25">Company Website: <a href="http://www.arcticdesk.com">http://www.arcticdesk.com</a></td>
                     </tr>
@@ -33,7 +33,7 @@
                 </table>
                 {elseif $groupname eq 'Blesta'}<table border="0" cellspacing="0" cellpadding="5">
                     <tr>
-                        <td rowspan="2"><img src="/includes/images/products_blesta.png" alt="Blesta" width="170" height="79" /></td>
+                        <td rowspan="2" style="padding-right: 16px;"><img src="/includes/images/products_blesta.png" alt="Blesta" width="170" height="79" /></td>
                         <td rowspan="2" width="15"></td>
                         <td valign="bottom" height="42">Company Website: <a href="http://blesta.com/">http://blesta.com/</a></td>
                     </tr>
@@ -43,7 +43,7 @@
                 </table>
                 {elseif $groupname eq 'ClientExec'}<table border="0" cellspacing="0" cellpadding="5">
                     <tr>
-                        <td rowspan="2"><img src="/includes/images/products_clientexec.png" alt="ClientExec" width="170" height="79" /></td>
+                        <td rowspan="2" style="padding-right: 16px;"><img src="/includes/images/products_clientexec.png" alt="ClientExec" width="170" height="79" /></td>
                         <td rowspan="2" width="15"></td>
                         <td valign="bottom" height="42">Company Website: <a href="http://clientexec.com">http://clientexec.com</a></td>
                     </tr>
@@ -53,7 +53,7 @@
                 </table>
                 {elseif $groupname eq 'CloudLinux'}<table border="0" cellspacing="0" cellpadding="5">
                     <tr>
-                        <td rowspan="3"><img src="/includes/images/products_cloudlinux.png" alt="CloudLinux" width="170" height="79" /></td>
+                        <td rowspan="3" style="padding-right: 16px;"><img src="/includes/images/products_cloudlinux.png" alt="CloudLinux" width="170" height="79" /></td>
                         <td rowspan="3" width="15"></td>
                         <td valign="bottom" height="25">Company Website: <a href="http://cloudlinux.com/">http://cloudlinux.com/</a></td>
                     </tr>
@@ -66,7 +66,7 @@
                 </table>
                 {elseif $groupname eq 'cPanel'}<table border="0" cellspacing="0" cellpadding="5">
                     <tr>
-                        <td rowspan="3"><img src="/includes/images/products_cpanel.png" alt="cPanel" width="170" height="79" /></td>
+                        <td rowspan="3" style="padding-right: 16px;"><img src="/includes/images/products_cpanel.png" alt="cPanel" width="170" height="79" /></td>
                         <td valign="bottom" height="25">Company Website: <a href="http://cpanel.net/">http://cpanel.net/</a></td>
                     </tr>
                     <tr>
@@ -78,7 +78,7 @@
                 </table>
                 {elseif $groupname eq 'Imunify360'}<table border="0" cellspacing="0" cellpadding="5">
                     <tr>
-                        <td rowspan="3"><img src="/includes/images/products_imunify360.png" alt="Imunify360" width="170" height="79" /></td>
+                        <td rowspan="3" style="padding-right: 16px;"><img src="/includes/images/products_imunify360.png" alt="Imunify360" width="170" height="79" /></td>
                         <td rowspan="3" width="15"></td>
                         <td valign="bottom" height="25">Company Website: <a href="https://www.imunify360.com/">https://www.imunify360.com/</a></td>
                     </tr>
@@ -95,7 +95,7 @@
                 </table>
                 {elseif $groupname eq 'InterWorx'}<table border="0" cellspacing="0" cellpadding="5">
                     <tr>
-                        <td rowspan="3"><img src="/includes/images/products_interworx.png" alt="InterWorx" width="170" height="79" /></td>
+                        <td rowspan="3" style="padding-right: 16px;"><img src="/includes/images/products_interworx.png" alt="InterWorx" width="170" height="79" /></td>
                         <td valign="bottom" height="25">Company Website: <a href="http://www.interworx.com/">http://www.interworx.com/</a></td>
                     </tr>
                     <tr>
@@ -107,7 +107,7 @@
                 </table>
                 {elseif $groupname eq 'KernelCare'}<table border="0" cellspacing="0" cellpadding="5">
                     <tr>
-                        <td rowspan="3"><img src="/includes/images/products_kernelcare.png" alt="KernelCare" width="170" height="79" /></td>
+                        <td rowspan="3" style="padding-right: 16px;"><img src="/includes/images/products_kernelcare.png" alt="KernelCare" width="170" height="79" /></td>
                         <td rowspan="3" width="15"></td>
                         <td valign="bottom" height="25">Company Website: <a href="http://kernelcare.com/">http://kernelcare.com/</a></td>
                     </tr>
@@ -124,7 +124,7 @@
                 </table>
                 {elseif $groupname eq 'RVSiteBuilder Pro'}<table border="0" cellspacing="0" cellpadding="5">
                     <tr>
-                        <td rowspan="3"><img src="/includes/images/products_rvsitebuilder.png" alt="RVSiteBuilder Pro" /></td>
+                        <td rowspan="3" style="padding-right: 16px;"><img src="/includes/images/products_rvsitebuilder.png" alt="RVSiteBuilder Pro" /></td>
                         <td rowspan="3" width="15"></td>
                         <td valign="bottom" height="25">Company Website: <a href="http://rvsitebuilder.com/">http://rvsitebuilder.com/</a></td>
                     </tr>
@@ -137,7 +137,7 @@
                 </table>
                 {elseif $groupname eq 'RVSkin'}<table border="0" cellspacing="0" cellpadding="5">
                     <tr>
-                        <td rowspan="3"><img src="/includes/images/products_rvskin.png" alt="RVSkin" width="170" height="79" /></td>
+                        <td rowspan="3" style="padding-right: 16px;"><img src="/includes/images/products_rvskin.png" alt="RVSkin" width="170" height="79" /></td>
                         <td rowspan="3" width="15"></td>
                         <td valign="bottom" height="25">Company Website: <a href="http://rvskin.com/">http://rvskin.com/</a></td>
                     </tr>
@@ -158,7 +158,7 @@
                 </table>
                 {elseif $groupname eq 'SolusVM'}<table border="0" cellspacing="0" cellpadding="5">
                     <tr>
-                        <td rowspan="3"><img src="/includes/images/products_solusvm.png" alt="SolusVM" width="170" height="79" /></td>
+                        <td rowspan="3" style="padding-right: 16px;"><img src="/includes/images/products_solusvm.png" alt="SolusVM" width="170" height="79" /></td>
                         <td rowspan="3" width="15"></td>
                         <td valign="bottom" height="25">Company Website: <a href="http://solusvm.com/">http://solusvm.com/</a></td>
                     </tr>
@@ -175,7 +175,7 @@
                 </table>
                 {elseif $groupname eq 'WHMSonic'}<table border="0" cellspacing="0" cellpadding="5">
                     <tr>
-                        <td rowspan="2"><img src="/includes/images/products_whmsonic.png" alt="WHMSonic" width="170" height="79" /></td>
+                        <td rowspan="2" style="padding-right: 16px;"><img src="/includes/images/products_whmsonic.png" alt="WHMSonic" width="170" height="79" /></td>
                         <td rowspan="2" width="15"></td>
                         <td valign="bottom" height="25">Company Website: <a href="http://whmsonic.com/">http://whmsonic.com/</a></td>
                     </tr>
@@ -185,7 +185,7 @@
                 </table>
                 {elseif $groupname eq 'WHMXtra'}<table border="0" cellspacing="0" cellpadding="5">
                     <tr>
-                        <td rowspan="3"><img src="/includes/images/products_whmxtra.gif" alt="WHMXtra" width="170" height="79" /></td>
+                        <td rowspan="3" style="padding-right: 16px;"><img src="/includes/images/products_whmxtra.gif" alt="WHMXtra" width="170" height="79" /></td>
                         <td rowspan="3" width="15"></td>
                         <td valign="bottom" height="25">Company Website: <a href="http://whmxtra.com/">http://whmxtra.com/</a></td>
                     </tr>
@@ -198,7 +198,7 @@
                 </table>
                 {elseif $groupname eq 'WHMCS'}<table border="0" cellspacing="0" cellpadding="5">
                     <tr>
-                        <td rowspan="3"><img src="/includes/images/products_whmcs.gif" alt="WHMCS" width="170" height="79" /></td>
+                        <td rowspan="3" style="padding-right: 16px;"><img src="/includes/images/products_whmcs.gif" alt="WHMCS" width="170" height="79" /></td>
                         <td rowspan="3" width="15"></td>
                         <td valign="bottom" height="25">Company Website: <a href="http://whmcs.com">http://whmcs.com</a></td>
                     </tr>
@@ -226,6 +226,7 @@
                                 </span>
                                 <h3>{$product}</h3>
                                 <h4>{$groupname}</h4>
+                                <p>{$domain}</p>
                             </div>
                             <div class="product-status-text">
                                 {$status}
@@ -250,30 +251,30 @@
                     </div>
                     <div class="col-md-6 text-center">
 
-                        <h4>{$LANG.clientareahostingregdate}</h4>
+                        <h5 style="margin-top: 0;">{$LANG.clientareahostingregdate}</h5>
                         {$regdate}
 
                         {if $firstpaymentamount neq $recurringamount}
-                            <h4>{$LANG.firstpaymentamount}</h4>
+                            <h5>{$LANG.firstpaymentamount}</h5>
                             {$firstpaymentamount}
                         {/if}
 
                         {if $billingcycle != $LANG.orderpaymenttermonetime && $billingcycle != $LANG.orderfree}
-                            <h4>{$LANG.recurringamount}</h4>
+                            <h5>{$LANG.recurringamount}</h5>
                             {$recurringamount}
                         {/if}
 
-                        <h4>{$LANG.orderbillingcycle}</h4>
+                        <h5>{$LANG.orderbillingcycle}</h5>
                         {$billingcycle}
 
-                        <h4>{$LANG.clientareahostingnextduedate}</h4>
+                        <h5>{$LANG.clientareahostingnextduedate}</h5>
                         {$nextduedate}
 
-                        <h4>{$LANG.orderpaymentmethod}</h4>
+                        <h5>{$LANG.orderpaymentmethod}</h5>
                         {$paymentmethod}
 
                         {if $suspendreason}
-                            <h4>{$LANG.suspendreason}</h4>
+                            <h5>{$LANG.suspendreason}</h5>
                             {$suspendreason}
                         {/if}
 
@@ -294,26 +295,11 @@
                         <ul class="nav nav-tabs nav-tabs-overflow">
                             {if $domain}
                                 <li class="active">
-                                    <a href="#domain" data-toggle="tab"><i class="fas fa-globe fa-fw"></i> {if $type eq "server"}{$LANG.sslserverinfo}{elseif ($type eq "hostingaccount" || $type eq "reselleraccount") && $serverdata}{$LANG.hostingInfo}{else}{$LANG.clientareahostingdomain}{/if}</a>
+                                    <a href="#domain" data-toggle="tab"><i class="fas fa-info fa-fw"></i> {$LANG.additionalInfo}</a>
                                 </li>
                             {elseif $moduleclientarea}
                                 <li class="active">
                                     <a href="#manage" data-toggle="tab"><i class="fas fa-globe fa-fw"></i> {$LANG.manage}</a>
-                                </li>
-                            {/if}
-                            {if $configurableoptions}
-                                <li{if !$domain && !$moduleclientarea} class="active"{/if}>
-                                    <a href="#configoptions" data-toggle="tab"><i class="fas fa-cubes fa-fw"></i> {$LANG.orderconfigpackage}</a>
-                                </li>
-                            {/if}
-                            {if $customfields}
-                                <li{if !$domain && !$moduleclientarea && !$configurableoptions} class="active"{/if}>
-                                    <a href="#additionalinfo" data-toggle="tab"><i class="fas fa-info fa-fw"></i> {$LANG.additionalInfo}</a>
-                                </li>
-                            {/if}
-                            {if $lastupdate}
-                                <li{if !$domain && !$moduleclientarea && !$configurableoptions && !$customfields} class="active"{/if}>
-                                    <a href="#resourceusage" data-toggle="tab"><i class="fas fa-inbox fa-fw"></i> {$LANG.resourceUsage}</a>
                                 </li>
                             {/if}
                         </ul>
@@ -323,143 +309,26 @@
                 <div class="tab-content product-details-tab-container">
                     {if $domain}
                         <div class="tab-pane fade in active text-center" id="domain">
-                            {if $type eq "server"}
+                            {foreach from=$customfields item=field}
                                 <div class="row">
                                     <div class="col-sm-5 text-right">
-                                        <strong>{$LANG.serverhostname}</strong>
+                                        <strong>{$field.name}</strong>
                                     </div>
                                     <div class="col-sm-7 text-left">
-                                        {$domain}
+                                        {$field.value}
                                     </div>
                                 </div>
-                                {if $dedicatedip}
-                                    <div class="row">
-                                        <div class="col-sm-5 text-right">
-                                            <strong>{$LANG.primaryIP}</strong>
-                                        </div>
-                                        <div class="col-sm-7 text-left">
-                                            {$dedicatedip}
-                                        </div>
+                            {/foreach}
+                            {foreach from=$configurableoptions item=configoption}
+                                <div class="row">
+                                    <div class="col-sm-5 text-right">
+                                        <strong>{$configoption.optionname}</strong>
                                     </div>
-                                {/if}
-                                {if $assignedips}
-                                    <div class="row">
-                                        <div class="col-sm-5 text-right">
-                                            <strong>{$LANG.assignedIPs}</strong>
-                                        </div>
-                                        <div class="col-sm-7 text-left">
-                                            {$assignedips|nl2br}
-                                        </div>
+                                    <div class="col-sm-7 text-left">
+                                        {if $configoption.optiontype eq 3}{if $configoption.selectedqty}{$LANG.yes}{else}{$LANG.no}{/if}{elseif $configoption.optiontype eq 4}{$configoption.selectedqty} x {$configoption.selectedoption}{else}{$configoption.selectedoption}{/if}
                                     </div>
-                                {/if}
-                                {if $ns1 || $ns2}
-                                    <div class="row">
-                                        <div class="col-sm-5 text-right">
-                                            <strong>{$LANG.domainnameservers}</strong>
-                                        </div>
-                                        <div class="col-sm-7 text-left">
-                                            {$ns1}<br />{$ns2}
-                                        </div>
-                                    </div>
-                                {/if}
-                            {else}
-                                {if $domain}
-                                    <div class="row">
-                                        <div class="col-sm-5 text-right">
-                                            <strong>{$LANG.orderdomain}</strong>
-                                        </div>
-                                        <div class="col-sm-7 text-left">
-                                            {$domain}
-                                        </div>
-                                    </div>
-                                {/if}
-                                {if $username}
-                                    <div class="row">
-                                        <div class="col-sm-5 text-right">
-                                            <strong>{$LANG.serverusername}</strong>
-                                        </div>
-                                        <div class="col-sm-7 text-left">
-                                            {$username}
-                                        </div>
-                                    </div>
-                                {/if}
-                                {if $serverdata}
-                                    <div class="row">
-                                        <div class="col-sm-5 text-right">
-                                            <strong>{$LANG.servername}</strong>
-                                        </div>
-                                        <div class="col-sm-7 text-left">
-                                            {$serverdata.hostname}
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-5 text-right">
-                                            <strong>{$LANG.domainregisternsip}</strong>
-                                        </div>
-                                        <div class="col-sm-7 text-left">
-                                            {$serverdata.ipaddress}
-                                        </div>
-                                    </div>
-                                    {if $serverdata.nameserver1 || $serverdata.nameserver2 || $serverdata.nameserver3 || $serverdata.nameserver4 || $serverdata.nameserver5}
-                                        <div class="row">
-                                            <div class="col-sm-5 text-right">
-                                                <strong>{$LANG.domainnameservers}</strong>
-                                            </div>
-                                            <div class="col-sm-7 text-left">
-                                                {if $serverdata.nameserver1}{$serverdata.nameserver1} ({$serverdata.nameserver1ip})<br />{/if}
-                                                {if $serverdata.nameserver2}{$serverdata.nameserver2} ({$serverdata.nameserver2ip})<br />{/if}
-                                                {if $serverdata.nameserver3}{$serverdata.nameserver3} ({$serverdata.nameserver3ip})<br />{/if}
-                                                {if $serverdata.nameserver4}{$serverdata.nameserver4} ({$serverdata.nameserver4ip})<br />{/if}
-                                                {if $serverdata.nameserver5}{$serverdata.nameserver5} ({$serverdata.nameserver5ip})<br />{/if}
-                                            </div>
-                                        </div>
-                                    {/if}
-                                {/if}
-                                {if $domain && $sslStatus}
-                                    <div class="row">
-                                        <div class="col-sm-5 text-right">
-                                            <strong>{$LANG.sslState.sslStatus}</strong>
-                                        </div>
-                                        <div class="col-sm-7 text-left{if $sslStatus->isInactive()} ssl-inactive{/if}">
-                                            <img src="{$sslStatus->getImagePath()}" width="12"> {$sslStatus->getStatusDisplayLabel()}
-                                        </div>
-                                    </div>
-                                    {if $sslStatus->isActive()}
-                                        <div class="row">
-                                            <div class="col-sm-5 text-right">
-                                                <strong>{$LANG.sslState.startDate}</strong>
-                                            </div>
-                                            <div class="col-sm-7 text-left">
-                                                {$sslStatus->startDate->toClientDateFormat()}
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-5 text-right">
-                                                <strong>{$LANG.sslState.expiryDate}</strong>
-                                            </div>
-                                            <div class="col-sm-7 text-left">
-                                                {$sslStatus->expiryDate->toClientDateFormat()}
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-5 text-right">
-                                                <strong>{$LANG.sslState.issuerName}</strong>
-                                            </div>
-                                            <div class="col-sm-7 text-left">
-                                                {$sslStatus->issuerName}
-                                            </div>
-                                        </div>
-                                    {/if}
-                                {/if}
-                                <br>
-                                <p>
-                                    <a href="http://{$domain}" class="btn btn-default" target="_blank">{$LANG.visitwebsite}</a>
-                                    {if $domainId}
-                                        <a href="clientarea.php?action=domaindetails&id={$domainId}" class="btn btn-default" target="_blank">{$LANG.managedomain}</a>
-                                    {/if}
-                                    <input type="button" onclick="popupWindow('whois.php?domain={$domain}','whois',650,420);return false;" value="{$LANG.whoisinfo}" class="btn btn-default" />
-                                </p>
-                            {/if}
+                                </div>
+                            {/foreach}
                             {if $moduleclientarea}
                                 <div class="text-center module-client-area">
                                     {$moduleclientarea}
@@ -486,60 +355,6 @@
                                     {$moduleclientarea}
                                 </div>
                             {/if}
-                        </div>
-                    {/if}
-                    {if $configurableoptions}
-                        <div class="tab-pane fade{if !$domain && !$moduleclientarea} in active{/if} text-center" id="configoptions">
-                            {foreach from=$configurableoptions item=configoption}
-                                <div class="row">
-                                    <div class="col-sm-5">
-                                        <strong>{$configoption.optionname}</strong>
-                                    </div>
-                                    <div class="col-sm-7 text-left">
-                                        {if $configoption.optiontype eq 3}{if $configoption.selectedqty}{$LANG.yes}{else}{$LANG.no}{/if}{elseif $configoption.optiontype eq 4}{$configoption.selectedqty} x {$configoption.selectedoption}{else}{$configoption.selectedoption}{/if}
-                                    </div>
-                                </div>
-                            {/foreach}
-                        </div>
-                    {/if}
-                    {if $customfields}
-                        <div class="tab-pane fade{if !$domain && !$moduleclientarea && !$configurableoptions} in active{/if} text-center" id="additionalinfo">
-                            {foreach from=$customfields item=field}
-                                <div class="row">
-                                    <div class="col-sm-5">
-                                        <strong>{$field.name}</strong>
-                                    </div>
-                                    <div class="col-sm-7 text-left">
-                                        {$field.value}
-                                    </div>
-                                </div>
-                            {/foreach}
-                        </div>
-                    {/if}
-                    {if $lastupdate}
-                        <div class="tab-pane fade text-center" id="resourceusage">
-                            <div class="col-sm-10 col-sm-offset-1">
-                                <div class="col-sm-6">
-                                    <h4>{$LANG.diskSpace}</h4>
-                                    <input type="text" value="{$diskpercent|substr:0:-1}" class="dial-usage" data-width="100" data-height="100" data-min="0" data-readOnly="true" />
-                                    <p>{$diskusage}MB / {$disklimit}MB</p>
-                                </div>
-                                <div class="col-sm-6">
-                                    <h4>{$LANG.bandwidth}</h4>
-                                    <input type="text" value="{$bwpercent|substr:0:-1}" class="dial-usage" data-width="100" data-height="100" data-min="0" data-readOnly="true" />
-                                    <p>{$bwusage}MB / {$bwlimit}MB</p>
-                                </div>
-                            </div>
-                            <div class="clearfix">
-                            </div>
-                            <p class="text-muted">{$LANG.clientarealastupdated}: {$lastupdate}</p>
-
-                            <script src="{$BASE_PATH_JS}/jquery.knob.js"></script>
-                            <script type="text/javascript">
-                            jQuery(function() {ldelim}
-                                jQuery(".dial-usage").knob({ldelim}'format':function (v) {ldelim} alert(v); {rdelim}{rdelim});
-                            {rdelim});
-                            </script>
                         </div>
                     {/if}
                 </div>
