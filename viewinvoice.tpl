@@ -88,13 +88,8 @@
                     {$clientsdetails.address1}, {$clientsdetails.address2}<br />
                     {$clientsdetails.city}, {$clientsdetails.state}, {$clientsdetails.postcode}<br />
                     {$clientsdetails.country}
-                    {if $clientsdetails.customfields}
-                        <br />
-                        {foreach from=$clientsdetails.customfields item=customfield}
-                            {if $customfield.id == 104}
-                                VAT Number: {$customfield.value}
-                            {/if}
-                        {/foreach}
+                    {if $clientsdetails.tax_id}
+                        <br />{$taxIdLabel}: {$clientsdetails.tax_id}
                     {/if}
 
                 </td><td width="50%" style="vertical-align: top;">
@@ -145,13 +140,13 @@
             </tr>
         </table>
 
-    {if $taxrate}
-        <!--* {$LANG.invoicestaxindicator}-->
-        <div id="exchange" style="margin-top: 25px; text-align:center;"><img src="templates/{$template}/img/ajax-loader.gif" alt="Loading" /></div>
-        <script type="text/javascript">
-            ajax('exrate.php?date={$datecreated}','exchange');
-        </script>
-    {/if}
+        {if $tax != '$0.00 USD'}
+            <!--* {$LANG.invoicestaxindicator}-->
+            <div id="exchange" style="margin-top: 25px; text-align:center;"><img src="templates/{$template}/img/ajax-loader.gif" alt="Loading" /></div>
+            <script type="text/javascript">
+                ajax('exrate.php?date={$datecreated}','exchange');
+            </script>
+        {/if}
 
         <hr />
 
